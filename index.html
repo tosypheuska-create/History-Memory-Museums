@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#234b40"><title>Историческая память и музеи. Memo</title><link rel="stylesheet" href="assets/style.css"><script src="assets/app.js" defer></script></head>
+<body>
+<header class="top"><h1>Историческая память и музеи. Memo</h1></header>
+<main>
+<div class="modebar"><button id="mode">Режим преподавателя</button><button id="rehearse" hidden>Повторять рабочую копию</button></div>
+<p id="source" class="source" role="status">Загрузка…</p>
+<section id="teacher" class="teacher" hidden aria-label="Рабочая копия преподавателя"><div class="actions"><button id="add" class="primary">＋ Добавить карточку</button><button id="export">↓ Скачать cards.json</button><button id="published">Загрузить опубликованный набор</button><button id="import">Восстановить из файла</button><input id="file" type="file" accept=".json,application/json" hidden></div><p id="save" role="status"></p></section>
+<div class="toolbar"><label class="search"><input id="search" type="search" aria-label="Поиск" placeholder="Поиск" autocomplete="off"></label><div class="views" aria-label="Вид карточек"><button id="grid" aria-pressed="true">Сетка</button><button id="single" aria-pressed="false">Одна карточка</button></div><button id="shuffle">↝ Перемешать</button><button id="projector" aria-pressed="false">Проектор</button></div>
+<div class="section-label"><span id="result"></span><button id="reset">Скрыть определения</button></div>
+<section id="cards" class="cards" aria-label="Карточки понятий"></section>
+<div id="empty" class="empty" hidden><p id="empty-text">Нет карточек</p></div>
+<nav id="pager" hidden aria-label="Переключение карточек"><button id="prev">← Назад</button><span id="position" aria-live="polite"></span><button id="next">Далее →</button></nav>
+
+</main>
+<dialog id="editor"><form id="form"><div class="dialog-head"><h2 id="editor-title">Новая карточка</h2><button type="button" id="close" aria-label="Закрыть">✕</button></div><label>Термин<input id="term" maxlength="300" autocomplete="off"></label><label>Определение<textarea id="definition" rows="6" maxlength="20000"></textarea></label><label>Состояние<select id="status"><option value="new">Новая</option><option value="filled">Заполнена</option><option value="checked">Проверена</option></select></label><p id="editor-save" role="status"></p><button type="submit" class="primary">Готово</button></form></dialog>
+<noscript>Для работы с карточками включите JavaScript в браузере.</noscript>
+</body></html>
