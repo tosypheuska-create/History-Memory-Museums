@@ -1,4 +1,47 @@
 {
   "version": 1,
-  "cards": []
+  "cards": [
+    {
+      "id": "b6100370-577e-4c70-93db-321d22374a61",
+      "term": "Принцип пноптикона",
+      "definition": "",
+      "status": "new"
+    },
+    {
+      "id": "3ce8aeb5-10bb-42e5-90a6-b28a99f9dfac",
+      "term": "Эпистема",
+      "definition": "",
+      "status": "new"
+    },
+    {
+      "id": "332db334-fb9e-420d-908b-9c3e27932643",
+      "term": "Прессупозиция",
+      "definition": "",
+      "status": "new"
+    },
+    {
+      "id": "4473ce6d-a004-4448-8e5e-1fbd0870fd67",
+      "term": "Темпоральность",
+      "definition": "",
+      "status": "new"
+    },
+    {
+      "id": "35455806-77bf-47b1-8352-085c6a961706",
+      "term": "Эффект Фуко",
+      "definition": "",
+      "status": "new"
+    },
+    {
+      "id": "441a9581-871f-4396-bf77-526e41093988",
+      "term": "Расколдовывание музея",
+      "definition": "",
+      "status": "new"
+    },
+    {
+      "id": "f0c24e4a-ff15-4bb8-8aab-01dd28bc9661",
+      "term": "Новая музеология",
+      "definition": "",
+      "status": "new"
+    }
+  ]
 }
